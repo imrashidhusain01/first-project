@@ -1,0 +1,103 @@
+@charset "UTF-8";
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:100px;
+}
+
+.box1{
+    height: 600px;
+    width: 800px;
+    box-shadow: 0 0 10px black;
+    background-color:aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    padding-bottom: 70px;
+
+}
+
+.box1:hover{
+  
+    box-shadow: 0 0 20px black;
+
+}
+
+h1{
+    color:deeppink;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-family:sans-serif;
+    height: 70px;
+    width: 300px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+h1:hover{
+  color:firebrick;
+  box-shadow: 0 0 20px black;
+
+}
+
+.table{
+    height: 500px;
+    width: 500px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+.table:hover{
+    box-shadow: 0 0 20px black;
+
+    
+}
+
+td{
+    font-size: 20px;
+    font-weight: 550;
+    padding-bottom: 40px;
+    /* margin-top: 30px; */
+    color:navy ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-left: 20px; */
+}
+
+input{
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    color: deeppink;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+   
+}
+
+input:hover{
+    box-shadow:  0 0 15px black;
+}
+
+button{
+ font-size: 20px;
+ border-radius: 5px;
+ border: none;
+ color: navy;
+ font-weight: 550;
+ box-shadow: 0 0 20px navy;
+}
+
+button:hover{
+    color: deeppink;
+ box-shadow: 0 0 20px deeppink;
+
+}
